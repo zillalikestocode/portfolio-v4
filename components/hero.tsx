@@ -5,7 +5,7 @@ import ShimmerButton from "../components/ui/shimmer-button";
 export default function Hero() {
   return (
     <div className="flex flex-col mt-40 items-center">
-      <h4 className="font-semibold tracking-tighter max-w-3xl text-center text-5xl">
+      <h4 className="font-semibold tracking-tighter max-w-3xl text-center text-4xl sm:text-5xl">
         <span className="text-darkText">Emmanuel</span> is a fullstack{" "}
         <span className="text-darkText">software engineer</span> building{" "}
         <span className="text-darkText">cool stuff </span>
@@ -14,10 +14,11 @@ export default function Hero() {
       <h4 className="text-lg font-medium text-darkText/90">
         i'm also known as codezilla (zilla for short)
       </h4>
-
-      <button className="border-[#707581] mt-5 rounded-lg border px-5 py-2.5 text-sm text-darkText">
-        Check Resumé
-      </button>
+      <a href="/Resume.pdf" download>
+        <button className="border-[#707581] mt-5 rounded-lg border px-5 py-2.5 text-sm text-darkText">
+          Check Resumé
+        </button>
+      </a>
       <div className="flex gap-2.5 items-center mt-2.5">
         <a href="https://github.com/zillalikestocode">
           <ShimmerButton

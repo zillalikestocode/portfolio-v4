@@ -28,13 +28,13 @@ export default function RootLayout({
         {children}
         <Dock />
         <AnimatedGridPattern
-          numSquares={50}
-          maxOpacity={0.1}
+          numSquares={60}
+          maxOpacity={0.5}
           duration={3}
           repeatDelay={1}
           className={cn(
             "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-            "inset-x-0 -z-10 inset-y-[-30%] h-[200%] skew-y-12",
+            "inset-x-0 -z-10 inset-y-[-30%] h-[200%] skew-y-12"
           )}
         />
       </body>

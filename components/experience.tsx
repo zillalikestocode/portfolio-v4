@@ -14,7 +14,7 @@ export default function Experience() {
     },
     {
       date: "June 2024",
-      role: "Solo Freelance Developer",
+      role: "Freelance Developer",
       place: "Jumbo Fresh Farm Products",
       image: "/jumbo.png",
     },
@@ -45,9 +45,12 @@ export default function Experience() {
       <div className="space-y-5 mt-5">
         {experience.map((item, key) => {
           return (
-            <div key={key} className="flex text-lg items-center gap-32">
+            <div
+              key={key}
+              className="flex sm:flex-row flex-col gap-1 text-sm sm:text-lg sm:items-center sm:gap-32"
+            >
               <h4 className="w-48">{item.date}</h4>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 sm:gap-3">
                 <h4>
                   <span className="text-darkText">
                     {item.role} &nbsp; &nbsp;
@@ -58,7 +61,7 @@ export default function Experience() {
                   <img
                     src={item.image}
                     alt="logo"
-                    className="object-fit h-6 rounded-sm"
+                    className="object-cover h-4 sm:h-6 rounded-sm"
                   />
                 )}
                 <h4 className="text-darkText">{item.place}</h4>
