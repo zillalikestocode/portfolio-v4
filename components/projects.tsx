@@ -10,7 +10,7 @@ export default function Projects() {
       name: "Esports NG",
       description:
         "Esports NG mobile application for the Nexal Gaming Community.",
-      href: "/",
+      href: "https://play.google.com/store/apps/details?id=com.esportsng.app&hl=en",
       cta: "View Application",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
       className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
@@ -21,7 +21,7 @@ export default function Projects() {
       name: "Tabs",
       description:
         "Mobbin for african designers. Get access to real life design inspirations",
-      href: "/",
+      href: "https://www.jointabs.com",
       cta: "Learn more",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
       className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
@@ -52,7 +52,7 @@ export default function Projects() {
       image: "/jumbo.png",
       name: "Jumbo Farms",
       description: "Online store for the Jumbo Fresh Farm Products company.",
-      href: "/",
+      href: "https://www.jumbo.farm",
       cta: "Learn more",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
       className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
