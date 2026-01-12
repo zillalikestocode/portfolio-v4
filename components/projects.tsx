@@ -21,7 +21,7 @@ export default function Projects() {
       href: "https://queryflow.studio",
       cta: "Check it out",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
+      className: "md:col-span-1 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
     },
     {
       Icon: ServerIcon,
@@ -32,7 +32,7 @@ export default function Projects() {
       href: "https://apps.apple.com/ng/app/olive-mfb/id6742594961",
       cta: "View Project",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2",
+      className: "md:col-span-1 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2",
     },
     {
       Icon: LandmarkIcon,
@@ -43,7 +43,7 @@ export default function Projects() {
       href: "https://agent.abiae-revenue.com.ng",
       cta: "Check it out",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2",
+      className: "md:col-span-1 lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2",
     },
     {
       Icon: FileTextIcon,
@@ -53,7 +53,7 @@ export default function Projects() {
       href: "https://play.google.com/store/apps/details?id=com.esportsng.app&hl=en",
       cta: "View Application",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3",
+      className: "md:col-span-2 lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3",
     },
     {
       Icon: InputIcon,
@@ -64,7 +64,7 @@ export default function Projects() {
       href: "https://www.jointabs.com",
       cta: "Learn more",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
+      className: "md:col-span-1 lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
     },
     {
       Icon: GlobeIcon,
@@ -75,7 +75,7 @@ export default function Projects() {
       href: "https://mysmartarena.com",
       cta: "Visit Store",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-4",
+      className: "md:col-span-1 lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-4",
     },
     {
       Icon: CalendarIcon,
@@ -85,7 +85,7 @@ export default function Projects() {
       href: "https://oversight-beta.vercel.app",
       cta: "Get Started",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-3 lg:col-end-4 lg:row-start-3 lg:row-end-5",
+      className: "md:col-span-1 lg:col-start-3 lg:col-end-4 lg:row-start-3 lg:row-end-5",
     },
     {
       Icon: BellIcon,
@@ -95,7 +95,7 @@ export default function Projects() {
       href: "https://www.jumbo.farm",
       cta: "Learn more",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-1 lg:col-end-3 lg:row-start-4 lg:row-end-5",
+      className: "md:col-span-1 lg:col-start-1 lg:col-end-3 lg:row-start-4 lg:row-end-5",
     },
   ];
   return (
