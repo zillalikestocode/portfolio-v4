@@ -1,15 +1,27 @@
 export default function Experience() {
   const experience = [
     {
-      date: "Oct 2024 - Present",
-      role: "Frontend Lead",
-      place: "Tabs",
-      image: "https://www.jointabs.com/_nuxt/tab.D6of20Tj.png",
+      date: "July 2025 - Present",
+      role: "Backend Engineer & Solo Flutter Engineer",
+      place: "Technova Technologies",
+      image: "/technova-logo.png",
     },
     {
-      date: "Feb 2024 - Present",
+      date: "March 2025 - Present",
+      role: "Full Stack Developer",
+      place: "CNAFF Abia State Revenue Revenue Management System",
+      image: "/cnaff.png",
+    },
+    {
+      date: "Oct 2024 - Aug 2025",
+      role: "Frontend Lead",
+      place: "Tabs",
+      image: "/tab.webp",
+    },
+    {
+      date: "Feb 2024 - Nov 2025",
       role: "Lead Mobile App Developer",
-      place: "Esports NG",
+      place: "Engy (formerly Esports NG)",
       image: "/esportsng.png",
     },
     {
